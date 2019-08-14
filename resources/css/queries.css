@@ -1,0 +1,69 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+    
+         width: 100%;
+         padding:0 2%;
+    
+    
+    }
+    .row{
+        padding:0 2%;
+    }
+}
+
+/*  Small tablet to big tablet: from 760px to 1023px */
+@media only screen and (max-width:1023px){
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+    
+    .long-copy{
+        width:80%;
+        margin-left: 10%;
+    }
+    .step-box{margin-top:10px;}
+    .step-box:last-child{margin-top:10px;}
+    .work-step{margin-bottom:40px;}
+    .work-step:last-child{margin-bottom:60px;}
+    
+    .app-screen{
+        width: 50%;}
+    
+    .btn-app img{
+        height: 50px;
+        width: auto;
+        margin-right: 2px;
+        
+    }
+    icon-small{width: 17px;}
+    city-feature{font-size: 90%;}
+    
+    .plan-box{width: 100%;}
+    
+    .section-cities img{
+        height: 200px;
+        width: auto;
+    }
+    
+}
+
+
+/* Small phones to small tablets (481-767px) */
+@media only screen and (max-width:767px){
+    body{font-size: 16px;}
+    section{padding: 30px 0;}
+    .row,
+    .hero-text-box{padding: 0 4%;}
+    
+    .col{width: 100%;}
+    .main-nav{display: none;}
+    .work-step{margin-bottom:20px;}
+    .work-step:last-child{margin-bottom:20px;}
+    
+}
+.mobile-nav-icon{
+    display: inline-block;
+}
+
+/* Small phones (0 to 480px) */
+/*@media only screen and (max-width:480px){}*/
