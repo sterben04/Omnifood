@@ -29,7 +29,7 @@ body{
 .row{
     max-width: 1140px;
     margin: 0 auto;
-  
+
 }
 
 section{
@@ -44,12 +44,12 @@ section{
 h1,
 h2,
 h3{
-    
+
     margin-bottom: 20px;
     color: #fff;
     text-transform: uppercase;
-    
-    
+
+
 }
 h1{
     margin-top: 0;
@@ -66,8 +66,8 @@ h2{
     margin-bottom: 30px;
     color: #000;
     letter-spacing: 1px;
-    
-    
+
+
 }
 h3{
     font-size: 110%;
@@ -82,23 +82,26 @@ h2 :after{
     width: 100px;
     margin-top: 30px;
     margin:0 auto;
-    
-    
+
+
 }
 /*-------NAVIGATION--------*/
 .main-nav{
     float: right;
     padding-right: 2px;
-    
+
 }
 .main-nav a{
     text-decoration: none;
     color: #fff;
-   
+
 }
 .main-nav a:hover{
     color:#e67e22;
     transition-delay:0.2s;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: dimgrey;
 }
 
 
@@ -107,7 +110,7 @@ h2 :after{
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
-    
+
 }
 .box p{
     font-size: 90%;
@@ -183,17 +186,17 @@ input[type=submit]:active{
 
 .btn-full:hover,
 .btn-full:active{
-   
+
     border: 1px solid #bf6516 ;
-    
+
 }
 
 .btn-ghost:hover,
 .btn-ghost:active{
     border: 1px solid #bf6516;
     color: #fff;
-    
-    
+
+
 }
 
 
@@ -222,7 +225,7 @@ header{
     width: auto;
     float: left;
     margin-top: 20px;
-    
+
 }
 /*----------------
 Only for sticky navigation bar
@@ -238,22 +241,22 @@ Only for sticky navigation bar
 /*    main-navi  */
 
 .main-nav{
-    
+
     float: right;
     list-style: none;
     margin-top: 50px;
     overflow: hidden;
-    
-   
+
+
 }
 
 .main-nav li{
     display: inline-block;
     margin-left: 40px;
     color: #000;
-    
-   
-    
+
+
+
 }
 
 .main-nav li a: link,
@@ -265,20 +268,20 @@ Only for sticky navigation bar
     font-size: 90%;
     border-bottom:2px solid transparent;
     transition:border-bottom:0.2s;
-   
+
 }
 
 .main-nav li a: hover,
 .main-nav li a: active{
     border-bottom:2px solid #e67e22;
 }
-/*  -----  mobile-navi  
+/*  -----  mobile-navi
 
 mobile-nav-icon{
     float: right;
     margin-top: 30px;
     cursor: pointer;
-    display: none; 
+    display: none;
 }-------*/
 
 /*    sticky-navi  */
@@ -296,7 +299,7 @@ mobile-nav-icon{
     color: #888686;
     padding: 16px 0;
     font-size: 70%;
-    
+
 }
 
 .sticky .logo{display: none;}
@@ -379,7 +382,7 @@ mobile-nav-icon{
     text-align: center;
     font-size: 150%;
     margin-right: 10px;
-    
+
 }
 .btn-app img{
     height: 50px;
@@ -401,7 +404,7 @@ mobile-nav-icon{
 }
 .cities-features{
     margin-bottom: 4px;
-    
+
 }
 .cities-features.a{
     color: #e67e22;
@@ -453,22 +456,22 @@ cite img{
     width: 90%;
     border-radius: 5px;
     margin-left: 5%;
-    
+
 }
 .plan-box div{
     padding:15px;
     border-bottom: 1px solid #c4c4c4;
-    
+
 }
 .plan-box div a{
-    background-color: dimgrey;    
+    background-color: dimgrey;
 }
 
 .plan-box ul{
     list-style: none;
 }
 .plan-box ul li{
-    
+
     margin-bottom: 8px;
 }
 .plan-price{
@@ -487,7 +490,7 @@ cite img{
 }
 .plan-box div:last-child{
     text-align: center;
-    
+
 }
 
 
@@ -525,13 +528,13 @@ footer{
 }
 .footer-nav{
     list-style:none;
-    
+
     float: left;
 }
 .footer-links{
     list-style: none;
     float: right;
-    
+
 }
 .footer-nav li,
 .footer-links li{
@@ -549,7 +552,7 @@ footer{
 .footer-nav li a:active,
 .footer-links li a:hover,
 .footer-links li a:active{
-   
+
     color: #e0dddd;
     transition-duration: 0.3s;
 }
@@ -562,13 +565,13 @@ footer p{
 }
 .footer-links li a{
     font-size: 150%;
-    
+
 }
 .ion-social-facebook:hover{
     color: #3b5998;
 }
 .ion-social-instagram:hover{
-    color:#d1225e; 
+    color:#d1225e;
 }
 .ion-social-twitter:hover{
     color: #00aced;
@@ -597,4 +600,3 @@ footer p{
 .js--wp-3.animated{
     opacity: 1;
 }*/
-
