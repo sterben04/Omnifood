@@ -1,2 +1,2 @@
 # Omnifood
-frontend using jquery
+frontend using html,css and jquery.
