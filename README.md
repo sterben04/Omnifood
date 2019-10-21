@@ -1,2 +1,2 @@
 # Omnifood
-frontend us
+frontend using jquery
